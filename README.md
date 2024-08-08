@@ -12,4 +12,4 @@ Stage 1 - Generación T
 
 -En el trabajo práctico N°6 teniamos que implementar javascript a una página ya creada o hacer una nueva, era desición de nosotros.
 
-IMAGENES: TODOS LOS DERECHO RESERVADOS A QUIEN CORRESPONDA
+IMAGENES: TODOS LOS DERECHOS RESERVADOS A QUIEN CORRESPONDA
