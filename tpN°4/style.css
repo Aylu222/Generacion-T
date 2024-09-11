@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./img/fondo2.jpg'); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.container {
+    text-align: center;
+    background-color: rgba(218, 162, 162, 0.575); 
+    height: 100%;
+    padding: 10vh;
+    border-radius: 5px;
+    box-shadow:10px rgba(0, 0, 0, 0.1);
+
+    background-position: center;
+}
+
+.form1 {
+    margin-bottom: 15px;
+}
+
+.form1 label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.form1 input,
+.form1 textarea,
+.form1 select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form1 input[type="radio"] {
+    width: auto;
+}
+
+.form1 .radio-group {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.form1 .radio-group label {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.form1 button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form1 button:hover {
+    background-color: #0056b3;
+}

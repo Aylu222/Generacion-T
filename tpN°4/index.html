@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="./style.css">    
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <u><h2>Formulario sobre vos</h2></u>
+        <form action="https://formspree.io/f/xwkgdbkz" method="post">
+            <!-- hay que poner el link para que nos muestre quienes se registran. EL QUE TIENE NO ANDA -->
+            <div class="form1">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form1">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form1">
+                <label>Género:</label>
+                <div class="radio-group">
+                    <input type="radio" id="male" name="género" value="masculino" required>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="femenino" name="género" value="femenino" required>
+                    <label for="female">Femenino</label>
+                    <input type="radio" id="otro" name="género" value="otro" required>
+                    <label for="other">Otro</label>
+            </div>
+            <br>
+            <div class="form1">
+                <label for="fecha">Fecha de nacimiento</label> 
+                <input type="date" name="fecha" id="input-fecha" required>
+            </div>
+            <br>
+            <div class="form1">
+                <label for="hobbys">Hobby</label>
+                <input type="text" id="hobby" name="hobby" required>
+            </div>
+            <div class="form1">
+                <label for="color">Color favorito:</label>
+                <input type="text" id="color" name="color" required>
+            </div>
+            <div class="form1">
+                <label>¿Te gusta el fútbol?</label>
+                <div class="radio-group">
+                    <input type="radio" id="male" name="género" value="masculino" required>
+                    <label for="radio">Sí</label>
+                    <input type="radio" id="femenino" name="género" value="femenino" required>
+                    <label for="radio">No</label>
+                </div>
+            <br>
+            <div class="form1">
+                <label for="comments">Si la respuesta fue sí, ¿De qué equipo sos?</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+            
+            <div class="form1">
+                <label for="comments">Habilidades extrañas:</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+            <div class="form1">
+                <button type="submit">Enviar</button>
+            </div>
+            
+        </form>
+    </div>
+</div>
+</body>
+</html>
+
+<!-- hobbys, año de nacimiento, gmail,nombre, apellido,-->

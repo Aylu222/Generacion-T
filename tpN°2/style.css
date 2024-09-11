@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 15x;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url(img/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    padding: 50px ;
+}
+.conteiner {
+    font-size: 30px;
+    text-align: center;   
+}
+
+.hero .cta-button {
+    background-color: white;
+    color:  #1A5276;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+
+.featured-products {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.featured-products .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    width: 200px;
+    
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    width: "200";
+    height: "200";
+}
+
+.product-card h3 {
+    margin: 10px 0;
+  
+}
+
+.product-card .buy-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    width: "200";
+    height: "200";
+}
+
+footer {
+    background-color:#000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: "200";
+    height: "200";
+}
+
+footer .footer-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-content ul li {
+    margin: 0 10px;
+}
+
+footer .footer-content ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.slide {
+    margin-bottom: 40px;
+}
+.slide h2 {
+    background-color: #222152;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.slide p {
+    padding: 10px;
+}
+.logo {
+    max-width: 150px;
+}
+.founder-photo {
+    max-width: 100px;
+    border-radius: 50%;
+}
