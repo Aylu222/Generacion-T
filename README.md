@@ -1,4 +1,4 @@
-Stage 1 - Generación T
+## Stage 1 - Generación T
 
 -En el trabajo práctico N°1 tuvimos que hacer un juego interativo en una pagina web, para este trabajo no era necesario ponerle Css.
 
