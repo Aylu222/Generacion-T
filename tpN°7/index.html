@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Carrusel</title>
+</head>
+<body data-bs-theme="dark">
+    <nav class="nav nav-pills flex-column flex-sm-row ">
+        <a class="flex-sm-fill text-sm-rith nav-link" href="https://es.wikipedia.org/wiki/Marvel_Comics"> Más Información</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="https://www.fotogramas.es/noticias-cine/g26616757/orden-peliculas-marvel-vengadores-4/">Peliculas</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="https://es.ign.com/marvel/181339/feature/los-25-mejores-heroes-de-marvel-en-el-ucm">Más heroes</a>
+      </nav>
+
+    
+    <div class="carrusel">
+        <div class="atras">
+            <img id="atras" src="img/atras.svg" alt="atras" loading="lazy">
+        </div>
+
+        <div class="imagenes">
+            <div id="img">
+                <img class="img" src="./img/marvel.png" alt="imagen 1" loading="lazy">
+            </div>
+            
+            <div id="texto" class="texto">
+                <h3>Marvel</h3>
+                <p>Marvel Worldwide, Inc., conocida como Marvel Comics, es una editorial de historietas estadounidense creada en 1939, inicialmente con el nombre de Timely Publications.</p>
+            </div>
+        </div>
+
+        <div class="adelante" id="adelante">
+            <img src="img/adelante.svg" alt="adelante" loading="lazy">
+        </div>
+    </div>
+
+    <div class="puntos" id="puntos"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
